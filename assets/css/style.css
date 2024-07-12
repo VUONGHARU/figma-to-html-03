@@ -547,7 +547,7 @@ a {
   border: 1px solid #e8ebee;
   background: #fff;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .blog-item:hover {
@@ -572,64 +572,177 @@ a {
   overflow: hidden;
 }
 
-.blog-item__body{
-    padding: 18px 22px;
+.blog-item__body {
+  padding: 18px 22px;
 }
 
-.blog-item__heading{
-    color: #10375C;
-font-size: 1.6rem;
-font-weight: 600;
-line-height: 1.62; /* 162.5% */
+.blog-item__heading {
+  color: #10375c;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.62; /* 162.5% */
 }
 
-.blog-item__desc{
-    margin-top: 10px;
-    color: #575F66;
-font-size: 1.4rem;
-font-weight: 300;
-line-height: 1.71; /* 171.429% */
+.blog-item__desc {
+  margin-top: 10px;
+  color: #575f66;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.71; /* 171.429% */
 }
 
-.blog-item__more{
-    display: inline-block;
-    margin-top: 12px;
-    color: #10375C;
-font-size: 1.4rem;
-font-weight: 400;
+.blog-item__more {
+  display: inline-block;
+  margin-top: 12px;
+  color: #10375c;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
-.blog-item__more:hover{
-    color: #2E80CE;
+.blog-item__more:hover {
+  color: #2e80ce;
 }
 
 /* ===========================================-appointment============================== */
-.appointment{
-    margin: 85px 0;
-    background: #F6FBFF;
+.appointment {
+  margin-top: 85px 0;
+  background: #f6fbff;
 }
 
-.apointment__inner{
-    padding: 100px 0;
-    background: #F6FBFF;
-    text-align: center;
+.apointment__inner {
+  padding: 100px 0;
+  background: #f6fbff;
+  text-align: center;
 }
 
-.appointment-heading::after{
-    content: "";
-    display: block;
-    width: 136px;
-height: 2px;
-background: #2E80CE;
-margin: 18px auto 0;
+.appointment-heading::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  margin: 18px auto 0;
 }
 
-.appointment__desc{
-    margin-top: 18px;
-    max-width: 617px;
-    margin: 18px auto 0;
+.appointment__desc {
+  margin-top: 18px;
+  max-width: 617px;
+  margin: 18px auto 0;
 }
 
-.appointment__btn{
-    margin-top: 38px;
+.appointment__btn {
+  margin-top: 38px;
+}
+
+/* ====================================================footer==================================================== */
+.footer {
+  margin-top: 170px;
+  padding-top: 100px;
+  background: #10375c;
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+  column-gap: 78px;
+}
+
+.footer__desc {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+
+.footer__heading {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+}
+
+.footer__list {
+  margin: 20px 0 28px;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+.footer__link {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86; /* 185.714% */
+  white-space: nowrap;
+}
+
+.footer__item {
+  margin-bottom: 10px;
+}
+
+.footer__social {
+  margin: 20px 0 28px;
+  column-gap: 10px;
+  display: flex;
+}
+.footer__social--btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  color: #2e80ce;
+  transition: 0.25s;
+}
+
+.footer__social--btn:hover {
+  background: #2e80ce;
+  color: #fff;
+}
+
+.footer-form {
+  display: flex;
+  column-gap: 12px;
+  margin-top: 10px;
+}
+
+.footer-form__input {
+  width: 212px;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  background: transparent;
+  outline: none;
+  color: #fff;
+}
+
+.footer-form__input::placeholder {
+  color: #9ca8b1;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86; /* 185.714% */
+}
+
+.footer__copyright {
+  border-top: 1px solid #406181;
+}
+
+.footer__copyright-text{
+    padding: 28px 0 42px;
+    color: #AAB3BA;
+text-align: center;
+font-family: "Open Sans";
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.85; /* 185.714% */
 }
