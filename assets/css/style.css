@@ -70,17 +70,17 @@ a {
   align-items: center;
   background: #fff;
   cursor: pointer;
-  transition: .25s;
+  transition: 0.25s;
 }
 
-.control__btn:hover{
-    background: #2E80CE;
-    border-color: #2E80CE;
-    color: #fff;
+.control__btn:hover {
+  background: #2e80ce;
+  border-color: #2e80ce;
+  color: #fff;
 }
 
-.control-icon--next{
-    rotate: 180deg;
+.control-icon--next {
+  rotate: 180deg;
 }
 /* =======================================header==================================== */
 .header {
@@ -450,4 +450,51 @@ a {
   height: 36px;
   border-radius: 36px;
   border: 1px solid #575f66;
+}
+
+/* ================================================install============================================ */
+.install__inner {
+    margin: 180px 0 85px;
+  position: relative;
+  padding: 0 70px;
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.install__img {
+  bottom: 0;
+  position: absolute;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  margin-top: 170px;
+}
+
+.install__content {
+  min-width: 586px;
+}
+
+.install__heading {
+  width: 489px;
+  color: #FFF;
+}
+
+.install__desc{
+    margin-top: 18px;
+    max-width: 586px;
+    color: #FFF;
+font-size: 1.8rem;
+font-weight: 300;
+line-height: 1.67; /* 166.667% */
+}
+
+.install__row{
+    display: flex;
+    margin-top: 38px;
+   column-gap: 28px;
+   align-items: center;
 }
